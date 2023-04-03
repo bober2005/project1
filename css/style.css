@@ -10,6 +10,9 @@ body {
     --color-red-txt: #F94E41;
     --color-text-btn: #ffffff;
     --not-activ-btn: #FFD8D7;
+    --project-works-color: #6F712F;
+    --backgroud-blog: #790808;
+    --box-cl: #ffffff
 }
 
 .link {
@@ -47,6 +50,9 @@ body {
     color: var(--not-activ-btn);
     background-color: var(--color-red-txt);
 }
+
+
+
 
 /**
   |============================
@@ -153,7 +159,7 @@ body {
     text-align: center;
     letter-spacing: 1.28px;
     text-transform: uppercase;
-    color: var(--color-red-txt));
+    color: var(--color-red-txt);
     background-color: var(--not-activ-btn);
 
 }
@@ -163,6 +169,96 @@ body {
   | section:works
   |============================
 */
-.
+.section-works {
+    background-color: #ffffff;
+
+}
+
+.works-paragraph {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--color-txt);
+}
+
+.title-works {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.17;
+    color: var(--color-txt)
+}
+
+.project-works {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    color: var(--project-works-color);
+
+}
+
+.paragraph-list {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #17372E;
+}
 
 
+/**
+  |============================
+  | Blog
+  |============================
+*/
+.section-blog {
+    background-color: var(--backgroud-blog);
+}
+
+.title-blog {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    color: var(--background-header);
+
+}
+
+.blog-btn {
+    background-color: var(--color-red-txt);
+
+}
+
+.box-color {
+    background-color: var(--box-cl);
+
+}
+
+.project-blog {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 38px;
+    color: var(--color-txt);
+}
+
+.nav-iteam{
+color: var(--color-txt);
+
+}
+
+.paragraph-blog {}
+
+.navigation {
+    color: var(--color-txt);
+}
