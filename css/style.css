@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #17372E;
+    background: #fff
+}
+
+:root {
+    --color-txt: #17372E;
+    --background-header: #FFF8EC;
+    --color-red-txt: #F94E41;
+    --color-text-btn: #ffffff;
+    --not-activ-btn: #FFD8D7;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.list {
+    list-style: none;
+}
+
+/**
+  |============================
+  | hover
+  |============================
+*/
+
+/* header-hover */
+
+.itaem-text:hover {
+    color: var(--color-red-txt);
+}
+
+.header-btn:hover {
+    color: var(--color-red-txt);
+    background-color: var(--not-activ-btn);
+}
+
+.paties-btn-active:hover {
+    color: var(--color-red-txt);
+    background-color: var(--not-activ-btn);
+}
+
+.paties-btn-inectiv:hover {
+    color: var(--not-activ-btn);
+    background-color: var(--color-red-txt);
+}
+
+/**
+  |============================
+  | Header 
+  |============================
+*/
+
+.header-hero {
+    background-color: var(--background-header);
+}
+
+.header-iteam {}
+
+.itaem-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--color-txt);
+}
+
+.header-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 1.152px;
+    text-transform: uppercase;
+    color: var(--color-text-btn);
+    background: var(--color-red-txt);
+
+}
+
+/**
+  |============================
+  | Main
+  |============================
+*/
+.main-hero {}
+
+/**
+  |============================
+  | section:parties
+  |============================
+*/
+
+.section-paties {}
+
+.title-paties {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 1;
+    color: var(--color-txt);
+}
+
+.paragraph-paties {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-txt);
+}
+
+.paragraph-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.48px;
+    color: var(--color-txt);
+}
+
+
+/* button */
+.paragraph-list {}
+
+.paties-btn-active {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: var(--color-text-btn);
+    background-color: var(--color-red-txt);
+}
+
+.paties-btn-inectiv {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: var(--color-red-txt));
+    background-color: var(--not-activ-btn);
+
+}
