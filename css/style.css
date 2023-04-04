@@ -325,7 +325,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 15px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     text-transform: uppercase;
     color: var(--not-activ-btn);
@@ -357,7 +357,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 73px;
-    line-height: 80px;
+    line-height: 1.09;
     color: var(--color-txt);
 }
 
@@ -366,7 +366,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
     color: var(--color-txt);
 }
 
@@ -379,7 +379,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 38px;
+    line-height: 1.3;
     color: var(--color-txt);
 
 }
@@ -389,7 +389,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
-    line-height: 88px;
+    line-height: 1.2;
     color: var(--color-txt);
 }
 
@@ -400,7 +400,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: var(--color-txt);
 }
 
@@ -438,7 +438,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 88px;
+    line-height: 1.1;
     color: var(--color-txt);
 
 }
@@ -448,7 +448,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
     color: var(--color-txt);
 
 }
