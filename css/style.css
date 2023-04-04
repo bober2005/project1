@@ -51,13 +51,31 @@ body {
     background-color: var(--color-red-txt);
 }
 
+/* blog  */
+.blog-btn:hover {
+    background-color: var(--not-activ-btn);
 
+}
 
 /* Talk of the town */
 
-.btn-talk:hover{
-background-color: var(--color-red-txt);
+.btn-talk:hover {
+    background-color: var(--color-red-txt);
 
+}
+
+/* price */
+
+.btn-magazin:hover {
+    background-color: #FFD8D7;
+    color: var(--color-txt)
+}
+
+
+
+.btn-friends:hover {
+    color: var(--not-activ-btn);
+    background-color: var(--color-red-txt);
 }
 
 
@@ -324,8 +342,118 @@ background-color: var(--color-red-txt);
     font-weight: 400;
     font-size: 27px;
     line-height: 1.4;
-    color:var(--background-header);
+    color: var(--background-header);
 
 }
 
 
+/* price  */
+.section-price {
+    background-color: var(--background-header);
+}
+
+.titel-price {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 80px;
+    color: var(--color-txt);
+}
+
+.paragraph-price {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-txt);
+}
+
+.magazin-price-one {
+    background-color: var(--color-text-btn);
+}
+
+.title-magazin {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--color-txt);
+
+}
+
+.price-magazin-free {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    color: var(--color-txt);
+}
+
+
+
+.pargraph-magazin {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-txt);
+}
+
+.btn-magazin {
+    background-color: var(--color-red-txt);
+    color: var(--color-text-btn);
+}
+
+.magazin-price-two {
+    background-color: var(--not-activ-btn);
+}
+
+.price-magazin {}
+
+.magazin-list {
+
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--color-txt);
+}
+
+/* friends */
+.section-friends {
+    background-color: var(--color-text-btn);
+
+}
+
+.title-friends {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    color: var(--color-txt);
+
+}
+
+.paragraph-friends {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-txt);
+
+}
+
+.btn-friends {
+    background-color: var(--not-activ-btn);
+    color: var(--color-red-txt);
+}
