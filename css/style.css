@@ -53,6 +53,14 @@ body {
 
 
 
+/* Talk of the town */
+
+.btn-talk:hover{
+background-color: var(--color-red-txt);
+
+}
+
+
 
 /**
   |============================
@@ -252,8 +260,8 @@ body {
     color: var(--color-txt);
 }
 
-.nav-iteam{
-color: var(--color-txt);
+.nav-iteam {
+    color: var(--color-txt);
 
 }
 
@@ -262,3 +270,62 @@ color: var(--color-txt);
 .navigation {
     color: var(--color-txt);
 }
+
+/* Talk of the town  */
+.lead {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--background-header);
+}
+
+.lead-iteam {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.48px;
+    color: var(--background-header);
+}
+
+.subtext {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--background-header);
+}
+
+.abovie-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--not-activ-btn);
+}
+
+.btn-talk {
+    background: var(--not-activ-btn);
+}
+
+.subject {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.4;
+    color:var(--background-header);
+
+}
+
+
